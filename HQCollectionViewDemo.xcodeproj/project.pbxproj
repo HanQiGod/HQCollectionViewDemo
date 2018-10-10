@@ -15,6 +15,10 @@
 		7AA4DB21216DA91F0001696A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DB20216DA91F0001696A /* main.m */; };
 		7AA4DB2B216DA91F0001696A /* HQCollectionViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DB2A216DA91F0001696A /* HQCollectionViewDemoTests.m */; };
 		7AA4DB36216DA91F0001696A /* HQCollectionViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DB35216DA91F0001696A /* HQCollectionViewDemoUITests.m */; };
+		7AA4DB45216DA9BE0001696A /* HQCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DB44216DA9BE0001696A /* HQCollectionViewFlowLayout.m */; };
+		7AA4DB48216DA9D70001696A /* HQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DB47216DA9D70001696A /* HQViewController.m */; };
+		7AA4DB4B216DACBB0001696A /* HQTopStopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DB4A216DACBB0001696A /* HQTopStopView.m */; };
+		7AA4DB4F216DB0A50001696A /* 悬停.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7AA4DB4E216DB0A40001696A /* 悬停.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		7AA4DB31216DA91F0001696A /* HQCollectionViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQCollectionViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA4DB35216DA91F0001696A /* HQCollectionViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQCollectionViewDemoUITests.m; sourceTree = "<group>"; };
 		7AA4DB37216DA91F0001696A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA4DB43216DA9BE0001696A /* HQCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		7AA4DB44216DA9BE0001696A /* HQCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		7AA4DB46216DA9D70001696A /* HQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQViewController.h; sourceTree = "<group>"; };
+		7AA4DB47216DA9D70001696A /* HQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQViewController.m; sourceTree = "<group>"; };
+		7AA4DB49216DACBB0001696A /* HQTopStopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQTopStopView.h; sourceTree = "<group>"; };
+		7AA4DB4A216DACBB0001696A /* HQTopStopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQTopStopView.m; sourceTree = "<group>"; };
+		7AA4DB4E216DB0A40001696A /* 悬停.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "悬停.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +112,17 @@
 		7AA4DB10216DA9190001696A /* HQCollectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7AA4DB43216DA9BE0001696A /* HQCollectionViewFlowLayout.h */,
+				7AA4DB44216DA9BE0001696A /* HQCollectionViewFlowLayout.m */,
+				7AA4DB49216DACBB0001696A /* HQTopStopView.h */,
+				7AA4DB4A216DACBB0001696A /* HQTopStopView.m */,
+				7AA4DB46216DA9D70001696A /* HQViewController.h */,
+				7AA4DB47216DA9D70001696A /* HQViewController.m */,
 				7AA4DB11216DA9190001696A /* AppDelegate.h */,
 				7AA4DB12216DA9190001696A /* AppDelegate.m */,
 				7AA4DB14216DA91A0001696A /* ViewController.h */,
 				7AA4DB15216DA91A0001696A /* ViewController.m */,
+				7AA4DB4E216DB0A40001696A /* 悬停.gif */,
 				7AA4DB17216DA91A0001696A /* Main.storyboard */,
 				7AA4DB1A216DA91F0001696A /* Assets.xcassets */,
 				7AA4DB1C216DA91F0001696A /* LaunchScreen.storyboard */,
@@ -237,6 +255,7 @@
 			files = (
 				7AA4DB1E216DA91F0001696A /* LaunchScreen.storyboard in Resources */,
 				7AA4DB1B216DA91F0001696A /* Assets.xcassets in Resources */,
+				7AA4DB4F216DB0A50001696A /* 悬停.gif in Resources */,
 				7AA4DB19216DA91A0001696A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA4DB48216DA9D70001696A /* HQViewController.m in Sources */,
 				7AA4DB16216DA91A0001696A /* ViewController.m in Sources */,
+				7AA4DB45216DA9BE0001696A /* HQCollectionViewFlowLayout.m in Sources */,
+				7AA4DB4B216DACBB0001696A /* HQTopStopView.m in Sources */,
 				7AA4DB21216DA91F0001696A /* main.m in Sources */,
 				7AA4DB13216DA9190001696A /* AppDelegate.m in Sources */,
 			);

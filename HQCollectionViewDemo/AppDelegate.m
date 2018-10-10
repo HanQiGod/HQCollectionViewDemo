@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  HQCollectionViewDemo
 //
-//  Created by 君凯商联网 on 2018/10/10.
-//  Copyright © 2018年 君凯商联网. All rights reserved.
+//  Created by Mr_Han on 2018/10/10.
+//  Copyright © 2018年 Mr_Han. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "HQViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    HQViewController *vc = [NSClassFromString(@"HQViewController") new];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

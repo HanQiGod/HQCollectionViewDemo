@@ -2,8 +2,8 @@
 //  main.m
 //  HQCollectionViewDemo
 //
-//  Created by 君凯商联网 on 2018/10/10.
-//  Copyright © 2018年 君凯商联网. All rights reserved.
+//  Created by Mr_Han on 2018/10/10.
+//  Copyright © 2018年 Mr_Han. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
